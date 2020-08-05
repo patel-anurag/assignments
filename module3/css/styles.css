@@ -1,0 +1,101 @@
+body {
+    background: black;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+
+}
+
+div.container {
+    border: 0px;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+#header-nav {
+    background-color: gray;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: right;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+  padding: 10px 0px;
+}
+
+#nav-list a:hover {
+  text-decoration: none;
+}
+
+ul#nav-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+div#heading {
+    color: white;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.8em;
+      font-weight: normal;
+    }
+}  
+    /* End Header */
+
+section {
+    background-color: gray;
+    margin: 10px;
+}
+
+section>h3 {
+    position: relative;
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    height: 45px;
+    padding: 10px 20px ;
+}
+
+section>p {
+    clear: both;
+    padding: 10px;
+    border: none;
+    height: 700px;
+}
+
+.row {
+    width: 100%;
+}

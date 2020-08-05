@@ -1,11 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <div class="navbar-brand">
+                <a href="index.html"><h1>Food, LLC</h1></a>
+              </div>
     
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+               <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                <li>
+                  <a href="#Chicken">
+                   <br class="hidden-xs"> Chicken</a><hr>
+                </li>
+                <li>
+                  <a href="#Beef">
+                    <br class="hidden-xs"> Beef</a><hr>
+                </li>
+                <li>
+                  <a href="#Sushi">
+                    <br class="hidden-xs"> Sushi</a><hr>
+                </li>
+              </ul><!-- #nav-list -->
+            </div><!-- .collapse .navbar-collapse -->
+          </div><!-- .container -->
+        </nav><!-- #header-nav -->
+      </header>
+
+<div id="heading" class="container">
+    <h1 class="text-center">Our Menu</h1>
+</div>
+
+
+<div id="main-content" class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <section class="chicken">
+                <h3 class="text-center" id="Chicken">Chicken</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis a quae atque repellat natus vero eveniet! Voluptatem sapiente quidem, dicta est, voluptatum ipsa impedit cumque saepe exercitationem illo beatae distinctio!
+                    <br><br>(End of Chicken section)
+                </p>
+                <footer class="text-center"><a href="index.html">Back to top</a></footer>
+            </section>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <section class="beef">
+                <h3 class="text-center" id="Beef">Beef</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium pariatur nobis non iure dolorum explicabo fuga, velit iusto possimus, nulla mollitia, incidunt quia ipsa eos. Voluptatibus debitis quod sunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime porro fugiat odit amet ipsa harum laborum cum, quas consequatur. Ut vero rerum iusto a perspiciatis? Ipsa id perferendis iure earum.
+                    <br><br>(End of Beef section)
+                </p>
+                <footer class="text-center"><a href="index.html">Back to top</a></footer>
+            </section>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <section class="sushi">
+                <h3 class="text-center" id="Sushi">Sushi</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cupiditate molestiae nostrum sunt veritatis rem. Facilis magni fuga excepturi sapiente minima velit eius optio, exercitationem consequuntur aperiam impedit. Reiciendis, excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore odit rem beatae amet ipsa porro exercitationem fugiat harum, ipsam laudantium corporis, totam assumenda in blanditiis enim! Aut, officiis provident! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias voluptatibus quaerat officiis, voluptatum ipsum nostrum ex placeat amet molestiae repellendus fugiat libero consectetur aliquam ullam, rerum omnis. Ex, mollitia?
+                    <br><br>(End of Sushi section)
+                </p>
+                <footer class="text-center"><a href="index.html">Back to top</a></footer>
+            </section>
+        </div>
+    </div>
+</div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
